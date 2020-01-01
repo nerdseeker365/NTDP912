@@ -1,0 +1,5 @@
+SQL> create table Customer_DAO(custNo number primary key,custName varchar2(10),custAddrs varchar2(10),pAmt float,intrAmt float);
+
+Table created.
+
+SQL> create sequence  custno_seq start with 1 increment by 1;
